@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&display=swap');
+
+body {
+    color:rgb(0, 0, 0);
+    background: rgb(53, 176, 70);
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 70px;
+}
+
+h1 {
+    font-family: 'Blaka Ink', cursive;
+    font-size: 4em;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: white;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.hero-image {
+  background-image: url("https://images2.alphacoders.com/718/718555.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.vogel {
+  margin-top: 25px;
+  width: 350px;
+  height: 250px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+
+.vogel:hover {
+  transform: scaleX(-1);
+}
+
+.logo img {
+  width: 200px;
+  height: 200px
+}
+
+.logo img {
+  filter: invert(100%);
+  display: flex;
+}
+
+.logo {
+  margin: 0;
+}
+
+.menu-link {
+    display: inline;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    color: black;
+    background-color: green;
+    border-right: 1px solid #bbb;
+    text-decoration: none;
+  }
+
+  .navigation-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: green;
+  }
+
+  a:hover {
+    color: green;
+    background-color: #111;
+    text-decoration: none;
+  }
+
+  footer {
+    margin-top: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #333;
+    color: green;
+    text-align: center;
+  }
