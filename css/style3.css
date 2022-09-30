@@ -39,6 +39,42 @@ h1 {
     padding: 10px;
   }  
 
+.birdbot1 {
+  width: 200px;;
+  height: 250px;
+  padding-inline: 10px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.lasercut {
+  display: flex;
+}
+
+.lasercutten {
+  width: 200px;;
+  height: 250px;
+  padding-inline: 10px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.lasercutten2 {
+  width: 200px;;
+  height: 350px;
+  padding-inline: 10px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.arrow {
+  width: 250px;;
+  height: 200px;
+  padding-inline: 10px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
 .menu-link {
     display: inline;
     float: left;
