@@ -67,6 +67,17 @@ h1 {
   overflow: hidden;
 }
 
+.verven {
+  width: 200px;;
+  height: 350px;
+  padding-inline: 10px;
+  border-radius: 25px;
+}
+
+.eind-ontwerp {
+  padding-bottom: 20px;
+}
+
 .arrow {
   width: 250px;;
   height: 200px;
