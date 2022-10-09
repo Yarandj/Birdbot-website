@@ -22,10 +22,6 @@ h1 {
     
 }
 
-.uitleg {
-  font-size: medium;
-}
-
 .title {
   font-family: 'Blaka Ink', cursive;
   font-size: 4em;    
@@ -60,7 +56,7 @@ h1 {
   overflow: hidden;
   box-shadow: 7px 10px 17px rgba(0, 0, 0, 0.2);
   margin-bottom: 70px;
-  margin-inline: 15px;
+  margin-inline: 10px;
 }
 
 .profile-picture {
@@ -78,29 +74,37 @@ h1 {
 
 .profile-picture-yaran {
   width: 100%;
-  padding-bottom: 1px;
+  margin-top: 20px;
 }
 
 .profile-picture-carisia {
   width: 100%;
   margin-top: 30px;
-  padding-bottom: 20px;
 }
   
 .name {
   font-size: 2em;
   font-style: italic;
   text-align: center;
-    padding: 5px;
-    margin: 0;
+  padding: 5px;
+  margin: 0;
 }
   
 .uitleg {
   padding: 5px;
+  padding-right: 20px;
+  font-size: medium;
+}
+
+.uitleg2 {
+  padding: 5px;
+  margin-top: 10px;
+  font-size: medium;
 }
   
 .cards {
-  display: flex
+  display: flex;
+  justify-content: center;
 }
 
 .p3 {
@@ -110,7 +114,8 @@ h1 {
 
 .hero-image {
   background-image: url("https://images2.alphacoders.com/718/718555.png");
-  height: 100%;
+  height: 30vh;
+  align-items: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,7 +125,7 @@ h1 {
 }
 
 .menu-link {
-  display: inline;
+    display: inline;
     float: left;
     display: block;
     padding: 14px 16px;
@@ -131,6 +136,7 @@ h1 {
   }
 
   .navigation-bar {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -156,4 +162,29 @@ h1 {
     background-color: #333;
     color: green;
     text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .cards {
+      flex-direction: column;
+    }
+    .name {
+      font-size: 1em;
+    }
+    .profile-card{
+      margin-inline: auto;
+    }
+    .profile-picture-yaran, .profile-picture-suhail, .profile-picture-carisia {
+      margin: auto;
+    }
+    .uitleg, .uitleg2 {
+      font-size: small;
+    }
+    .navigation-bar {
+      flex-direction: column;
+      align-items: center;
+    }
+    .menu-link {
+      border-right: green;
+    }
   }
