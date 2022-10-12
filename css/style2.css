@@ -2,24 +2,32 @@
 
 body {
   color:rgb(0, 0, 0);
-  background: rgb(53, 176, 70);
-  
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(46,253,45,0.5) 0%, rgba(255,255,255,0.2) 50%, rgba(46,253,45,1) 100%);
   font-family: sans-serif;
   font-size: 18px;
   margin-left: 70px;
+  margin: 0;
 }
 
-#container {
-  width: 80vw;
+header {
+  width: 100%;
+  margin: 0;
+}
+
+main {
   max-width: 1200px;
   min-width: 300px;
-  margin: 0 auto;
 }
 
 h1 {
     font-family: serif;
     font-size: 3em;
     
+}
+
+.text {
+  margin-left: 200px;
 }
 
 .title {
@@ -103,6 +111,7 @@ h1 {
 }
   
 .cards {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -115,6 +124,7 @@ h1 {
 .hero-image {
   background-image: url("https://images2.alphacoders.com/718/718555.png");
   height: 30vh;
+  width: 100%;
   align-items: center;
   background-position: center;
   background-repeat: no-repeat;
@@ -138,10 +148,10 @@ h1 {
   .navigation-bar {
     display: flex;
     list-style-type: none;
+    width: 100%;
     margin: 0;
     padding: 0;
     top: 0;
-    width: 100%;
     overflow: hidden;
     background-color: green;
   }
@@ -171,8 +181,9 @@ h1 {
     .name {
       font-size: 1em;
     }
-    .profile-card{
+    .profile-card, .card{
       margin-inline: auto;
+      width: 50%;
     }
     .profile-picture-yaran, .profile-picture-suhail, .profile-picture-carisia {
       margin: auto;
@@ -186,5 +197,8 @@ h1 {
     }
     .menu-link {
       border-right: green;
+    }
+    .text {
+      margin-left: 10px;
     }
   }

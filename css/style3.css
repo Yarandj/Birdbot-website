@@ -2,18 +2,26 @@
 
 body {
     color:rgb(0, 0, 0);
-    background: rgb(53, 176, 70);
-    
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(46,253,45,0.5) 0%, rgba(255,255,255,0.5) 50%, rgba(46,253,45,0.7) 100%);
     font-family: sans-serif;
     font-size: 18px;
     margin-left: 70px;
+    margin: 0;
 }
 
-#container {
-  width: 80vw;
+header {
+  width: 100%;
+  margin: 0;
+}
+
+main {
   max-width: 1200px;
   min-width: 300px;
-  margin: 0 auto;
+}
+
+.text {
+  margin-left: 200px;
 }
 
 h1 {
@@ -25,6 +33,7 @@ h1 {
 .hero-image {
     background-image: url("https://images2.alphacoders.com/718/718555.png");
     height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,7 +96,7 @@ h1 {
 }
 
 .eind {
-  width: 200px;;
+  width: 200px;
   height: 350px;
   border-radius: 25px;
 }
@@ -114,10 +123,10 @@ h1 {
   .navigation-bar {
     display: flex;
     list-style-type: none;
+    width: 100%;
     margin: 0;
     padding: 0;
     top: 0;
-    width: 100%;
     overflow: hidden;
     background-color: green;
   }
@@ -158,5 +167,8 @@ h1 {
     }
     .menu-link {
       border-right: green;
+    }
+    .text {
+      margin-left: 10px;
     }
   }
